@@ -30,9 +30,9 @@ jobs:
       run: |
         chmod +x gradlew
         ./gradlew wrapper
-      working-directory: HoussemDellai-gs-spring-boot
+      working-directory: vinayraj739/
 
     - name: Build with Gradle
       run: |
         ./gradlew build  # Adjust the Gradle build command as needed
-      working-directory: HoussemDellai-gs-spring-boot
+      working-directory: vinayraj739/
